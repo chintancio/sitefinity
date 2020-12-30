@@ -1,0 +1,42 @@
+﻿@model SitefinityWebApp.Mvc.Models.ProfileModel
+<link rel="stylesheet" href="~/Styles/Main.css" type="text/css" />
+
+<div id="wrapper">
+    <div id="Container1">
+        <img id="ProfileStyle" src="~/Asset/Default_ProfilePicture.jpg" />
+        <div id="Container2">
+            <h3>@Html.Raw(Model.Name)</h3>
+            <h4>@Html.Raw(Model.Country)</h4>
+        </div>
+    </div>
+    <div id="Container3">
+        <div id="Container4">
+            <p><b>Address: </b></p>
+            <p><b>Birthdate: </b></p>
+            <p><b>Language: </b></p>
+            <p><b>Age: </b></p>
+        </div>
+        <div id="Container5">
+            <p>@Html.Raw(Model.Address)</p>
+            <p>@Html.Raw(Model.Birthdate)</p>
+            <p>@Html.Raw(Model.Age) years old</p>
+            <p>@Html.Raw(Model.Language)</p>
+        </div>
+    </div>
+    <div id="Container3">
+        <div id="Container4">
+            <p><b>Hobbies: </b></p>
+            <p><b>Favorite Movie: </b></p>
+            <p><b>Favorite Series: </b></p>
+        </div>
+        <div id="Container5">
+            <p>@Html.Raw(Model.Hobby)</p>
+            <p>@Html.Raw(Model.FavoriteMovie)</p>
+            <p>@Html.Raw(Model.FavoriteSeries)</p>
+        </div>
+    </div>
+    <div id="footer">
+
+    </div>
+</div>
+
