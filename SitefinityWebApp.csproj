@@ -1260,6 +1260,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Asset\background_header.jpg" />
     <Content Include="Asset\Default_ProfilePicture.jpg" />
     <Content Include="Default.aspx" />
     <Content Include="Sitefinity\Default.aspx" />
