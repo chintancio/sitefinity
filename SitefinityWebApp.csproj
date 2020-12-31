@@ -1262,6 +1262,8 @@
   <ItemGroup>
     <Content Include="Asset\background_header.jpg" />
     <Content Include="Asset\Default_ProfilePicture.jpg" />
+    <Content Include="Database Scripts\Profile_DBTest.sql" />
+    <Content Include="Database Scripts\Sitefinity_DB.sql" />
     <Content Include="Default.aspx" />
     <Content Include="Sitefinity\Default.aspx" />
     <Content Include="Sitefinity\Services\Analytics\AnalyticsPermissionsService.svc" />
